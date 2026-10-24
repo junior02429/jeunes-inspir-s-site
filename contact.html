@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Jeunes Inspirés</title>
+  <meta name="description" content="Contacte l'équipe de Jeunes Inspirés : rejoindre le programme, poser une question, proposer une opportunité ou un partenariat.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contactez-nous</h1>
+        <p>Une question, une idée, une proposition ? L'équipe de Jeunes Inspirés te répond.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contact-grid">
+
+        <!-- Coordonnées -->
+        <div class="reveal">
+          <span class="eyebrow">Nos coordonnées</span>
+          <h2>Parlons-en</h2>
+          <p>Choisis le moyen qui te convient le mieux.</p>
+
+          <div class="info-item">
+            <div class="icon">✉️</div>
+            <div><h3>E-mail</h3><p><a href="mailto:jeunesinspires.cg@gmail.com">jeunesinspires.cg@gmail.com</a></p></div>
+          </div>
+          <div class="info-item">
+            <div class="icon">📞</div>
+            <div><h3>Téléphone</h3><p><a href="tel:+242050102416">+242 05 010 24 16</a></p></div>
+          </div>
+          <div class="info-item">
+            <div class="icon">📍</div>
+            <div><h3>Localisation</h3><p>Pointe-Noire, République du Congo</p></div>
+          </div>
+
+          <div class="card" style="margin-top:1.5rem">
+            <h3>Tu peux nous écrire pour :</h3>
+            <ul class="list-check">
+              <li>rejoindre Jeunes Inspirés</li>
+              <li>candidater au programme des Ambassadeurs</li>
+              <li>proposer une opportunité ou un sujet JI Déclic</li>
+              <li>proposer un partenariat ou une collaboration</li>
+              <li>devenir mentor, intervenant ou bénévole</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Formulaire -->
+        <div class="form-card wide reveal">
+          <h2 style="font-size:1.5rem">Envoyer un message</h2>
+          <div id="form-msg" role="status" aria-live="polite"></div>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nom">Nom complet *</label>
+              <input type="text" id="nom" autocomplete="name" placeholder="Ton nom et prénom" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Adresse e-mail *</label>
+              <input type="email" id="email" autocomplete="email" placeholder="exemple@mail.com" required>
+            </div>
+            <div class="form-group">
+              <label for="ville">Ville</label>
+              <input type="text" id="ville" autocomplete="address-level2" placeholder="Ex. Pointe-Noire">
+            </div>
+            <div class="form-group">
+              <label for="sujet">Sujet</label>
+              <select id="sujet">
+                <option value="general">Question générale</option>
+                <option value="rejoindre">Rejoindre Jeunes Inspirés</option>
+                <option value="ambassadeur">Devenir Ambassadeur</option>
+                <option value="activite">Inscription à une activité</option>
+                <option value="opportunite">Proposition d'opportunité</option>
+                <option value="declic">Proposition de sujet JI Déclic</option>
+                <option value="partenariat">Partenariat ou collaboration</option>
+                <option value="benevole">Devenir mentor, intervenant ou bénévole</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" placeholder="Écris ton message ici…" required></textarea>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Envoyer le message</button>
+            <p class="form-note">En cliquant, ta messagerie s'ouvre avec le message prêt à envoyer. Les informations saisies servent uniquement à te répondre.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Questions fréquentes -->
+    <section class="bg-soft">
+      <div class="container" style="max-width:820px">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Questions fréquentes</h2>
+        </div>
+        <div class="reveal">
+          <details class="faq">
+            <summary>Qui peut rejoindre Jeunes Inspirés ?</summary>
+            <p>JI s'adresse principalement aux jeunes de 15 à 30 ans, mais la participation est ouverte à tous, sans distinction d'origine, de milieu social, de niveau d'études ou de situation professionnelle.</p>
+          </details>
+          <details class="faq">
+            <summary>Comment rejoindre la communauté ?</summary>
+            <p>Utilise le formulaire ci-dessus en choisissant le sujet « Rejoindre Jeunes Inspirés ». L'équipe te répond et t'explique comment suivre les activités et les informations.</p>
+          </details>
+          <details class="faq">
+            <summary>Y a-t-il des frais pour participer ?</summary>
+            <p>Les conditions de chaque activité sont précisées lors de son annonce officielle.</p>
+          </details>
+          <details class="faq">
+            <summary>Jeunes Inspirés est-il lié à un parti politique ?</summary>
+            <p>Non. JI est un programme apolitique et ouvert à tous, qui respecte la diversité des convictions religieuses et philosophiques.</p>
+          </details>
+          <details class="faq">
+            <summary>Comment devenir Ambassadeur ?</summary>
+            <p>Il faut adhérer à l'esprit et aux valeurs de JI et être motivé et sérieux. Consulte la page Communauté pour les détails, puis candidate depuis ce formulaire.</p>
+          </details>
+          <details class="faq">
+            <summary>Quel est le lien avec Silver Corporate ?</summary>
+            <p>JI est un programme jeunesse intégré à l'écosystème de Silver Corporate, tout en disposant de son identité, de sa mission et de ses activités propres.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/layout.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    (function () {
+      var select = document.getElementById('sujet');
+      var message = document.getElementById('message');
+      var box = document.getElementById('form-msg');
+
+      // Les boutons du site envoient vers contact.html?sujet=... : on présélectionne le sujet
+      var param = new URLSearchParams(location.search).get('sujet');
+      if (param) {
+        for (var i = 0; i < select.options.length; i++) {
+          if (select.options[i].value === param) { select.selectedIndex = i; break; }
+        }
+      }
+
+      // Aide à la rédaction selon le sujet
+      var aides = {
+        rejoindre: 'Présente-toi en quelques mots : ton âge, ta ville et ce qui t\'intéresse dans Jeunes Inspirés.',
+        ambassadeur: 'Parle-nous de ta motivation, de tes disponibilités et de ce que tu aimerais apporter au programme.',
+        activite: 'Indique l\'activité qui t\'intéresse.',
+        opportunite: 'Décris l\'opportunité : de quoi il s\'agit, pour qui, la date limite et le lien si tu en as un.',
+        declic: 'Quel sujet aimerais-tu voir traité dans un prochain JI Déclic ?',
+        partenariat: 'Présente ton organisation et ta proposition.',
+        benevole: 'Indique ton domaine d\'expertise et la façon dont tu souhaites contribuer.'
+      };
+      function aide() { message.placeholder = aides[select.value] || 'Écris ton message ici…'; }
+      select.addEventListener('change', aide);
+      aide();
+
+      function show(cls, txt) { box.innerHTML = '<div class="alert ' + cls + '">' + txt + '</div>'; }
+
+      document.getElementById('contact-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var nom = document.getElementById('nom').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var ville = document.getElementById('ville').value.trim();
+        var texte = message.value.trim();
+        var sujet = select.options[select.selectedIndex].text;
+
+        if (!nom || !email || !texte) {
+          return show('alert-error', 'Merci de remplir tous les champs marqués d\'une étoile.');
+        }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          return show('alert-error', 'L\'adresse e-mail ne semble pas valide.');
+        }
+
+        var corps = 'Nom : ' + nom + '\nE-mail : ' + email + (ville ? '\nVille : ' + ville : '') + '\n\n' + texte;
+        location.href = 'mailto:jeunesinspires.cg@gmail.com?subject=' +
+          encodeURIComponent('[Site JI] ' + sujet) + '&body=' + encodeURIComponent(corps);
+        show('alert-ok', 'Ta messagerie va s\'ouvrir avec le message prêt à envoyer. Il te reste à cliquer sur « Envoyer ».');
+      });
+    })();
+  </script>
+</body>
+</html>

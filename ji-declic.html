@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JI Déclic — Jeunes Inspirés</title>
+  <meta name="description" content="JI Déclic : un sujet, une compréhension, une réflexion, une action. Un nouveau Déclic chaque vendredi pour comprendre et agir.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Mise en page des JI Déclic */
+    .sommaire{display:grid;gap:.7rem}
+    .sommaire a{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem 1rem;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:.9rem 1.1rem;color:var(--ink);font-weight:600;transition:.2s}
+    .sommaire a:hover{border-color:var(--mag);transform:translateX(4px)}
+    .sommaire small{color:#777;font-weight:500}
+    .declic{padding:2rem;margin-bottom:2rem;scroll-margin-top:110px}
+    .declic:hover{transform:none
+        .js .declic.reveal{opacity:1;transform:none}
+    .declic-meta{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:.9rem}
+    .date-badge{background:var(--grad);color:#fff;padding:.3rem .9rem;border-radius:999px;font-size:.82rem;font-weight:600}
+    .declic h3{font-size:clamp(1.4rem,3.5vw,1.9rem);margin-bottom:.6rem}
+    .declic p{font-size:1rem;color:#333;line-height:1.8}
+    .declic .intro{font-size:1.08rem;color:#444;font-weight:500}
+    .stage{border-left:4px solid var(--c);padding:.1rem 0 .1rem 1.2rem;margin:1.8rem 0}
+    .stage h4{color:var(--c);font-size:1.15rem;margin-bottom:.6rem}
+    .stage h4 span{display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:50%;background:var(--c);color:#fff;font-size:.85rem;margin-right:.5rem}
+    .declic ul{margin:.4rem 0 1rem}
+    .declic ul li{line-height:1.7}
+    .retenir{background:var(--soft);border-radius:var(--radius);padding:1.2rem 1.4rem;margin-top:1.4rem}
+    .retenir h4{color:var(--pur);margin-bottom:.5rem}
+    .declic-end{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.4rem;align-items:center}
+  </style>
+</head>
+<body>
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>JI Déclic</h1>
+        <p>Un sujet. Une compréhension. Une réflexion. Une action.</p>
+      </div>
+    </section>
+    
+        <!-- Présentation -->
+    <section>
+      <div class="container two-col">
+        <div class="reveal">
+          <span class="eyebrow">Le principe</span>
+          <h2>Un déclic pour comprendre et agir</h2>
+          <p>JI Déclic est un format de contenu et de sensibilisation de Jeunes Inspirés. Il présente régulièrement, sous une forme courte et accessible, un sujet susceptible d'intéresser ou de concerner les jeunes.</p>
+          <p>L'objectif n'est pas seulement de transmettre une information : il s'agit d'amener chaque jeune à <strong>comprendre</strong>, à <strong>réfléchir</strong> et, s'il le souhaite, à <strong>agir</strong>.</p>
+          <p><strong>Un nouveau Déclic est publié chaque vendredi.</strong></p>
+        </div>
+        <div class="card reveal">
+          <h3>Les contenus prennent plusieurs formes</h3>
+          <ul class="list-check">
+            <li>🎬 Vidéos courtes</li>
+            <li>💡 Capsules éducatives</li>
+            <li>🎙️ Podcasts</li>
+            <li>📝 Publications explicatives</li>
+            <li>📢 Contenus de sensibilisation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Les 4 étapes -->
+    <section class="bg-soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">La démarche</span>
+          <h2>Quatre étapes pour chaque sujet</h2>
+        </div>
+        <div class="steps steps-4">
+          <article class="step reveal"><h3>Un sujet</h3><p>Un thème précis, proche de la réalité des jeunes, est présenté simplement.</p></article>
+          <article class="step reveal"><h3>Une compréhension</h3><p>Les points essentiels sont expliqués pour bien saisir de quoi il s'agit.</p></article>
+          <article class="step reveal"><h3>Une réflexion</h3><p>Des questions invitent à prendre du recul et à se faire sa propre opinion.</p></article>
+          <article class="step reveal"><h3>Une action</h3><p>Une piste concrète permet de passer de l'idée à la mise en pratique.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sommaire -->
+    <section>
+      <div class="container" style="max-width:860px">
+        <div class="section-head reveal">
+          <span class="eyebrow">Tous les Déclic</span>
+          <h2>Les JI Déclic publiés</h2>
+          <p>Du plus récent au plus ancien. Clique sur un titre pour aller directement au Déclic.</p>
+        </div>
+        <nav class="sommaire reveal" aria-label="Sommaire des JI Déclic">
+          <a href="#declic-2026-10-16"><span>🌱 Gérer son temps : faire moins, mais mieux</span><small>Vendredi 16 octobre 2026</small></a>
+          <a href="#declic-2026-10-09"><span>🧭 Choisir sa filière : par où commencer ?</span><small>Vendredi 9 octobre 2026</small></a>
+          <a href="#declic-2026-10-02"><span>🤝 Être citoyen, ça commence près de chez soi</span><small>Vendredi 2 octobre 2026</small></a>
+        </nav>
+      </div>
+    </section>
+    
+        <!-- Les Déclic : le plus récent en premier -->
+    <section class="bg-soft">
+      <div class="container" style="max-width:860px">
+
+        <!-- ============ DÉCLIC DU 16 OCTOBRE 2026 — BIEN-ÊTRE ============ -->
+        <article class="card accent declic reveal" id="declic-2026-10-16" style="--c:#6A2C91">
+          <div class="declic-meta">
+            <time class="date-badge" datetime="2026-10-16">📅 Vendredi 16 octobre 2026</time>
+            <span class="badge">🌱 Bien-être</span>
+            <span class="badge">📝 Publication · ⏱ 5 min de lecture</span>
+          </div>
+          <h3>Gérer son temps : faire moins, mais mieux</h3>
+          <p class="intro">Les cours, le travail, la famille, les amis, le téléphone… Les journées semblent toujours trop courtes. Et si le problème n'était pas le manque de temps, mais la façon dont on le choisit ?</p>
+
+          <div class="stage" style="--c:#E6007E">
+            <h4><span>1</span>Un sujet</h4>
+            <p>Beaucoup de jeunes terminent leur journée épuisés, avec le sentiment de n'avoir rien accompli de vraiment important. On a couru, répondu à des messages, rendu des services, suivi des cours… et pourtant les révisions sont toujours à faire, le projet n'avance pas, et le repos est sacrifié.</p>
+            <p>Ce phénomène est très courant, surtout à la période de la rentrée, quand les emplois du temps changent et que les obligations s'accumulent. Entre les études, un petit travail, les obligations familiales, les amis et les réseaux sociaux, le temps devient un défi quotidien.</p>
+            <p>Le temps est la seule ressource que nous avons tous en quantité égale : 24 heures par jour. La différence ne se fait pas sur la quantité, mais sur l'usage que l'on en fait.</p>
+          </div>
+
+          <div class="stage" style="--c:#6A2C91">
+            <h4><span>2</span>Une compréhension</h4>
+            <p>Bien gérer son temps ne veut pas dire tout faire, ni faire plus vite. Cela veut dire <strong>choisir ce qui compte vraiment</strong>, puis lui réserver une place. Voici quelques idées simples pour y parvenir.</p>
+            <p><strong>Distinguer l'urgent de l'important.</strong> Ce qui est urgent réclame une réponse immédiate (un message, une demande, une échéance proche). Ce qui est important contribue à tes objectifs à long terme (réviser, apprendre une compétence, prendre soin de ta santé). On a tendance à remplir sa journée avec l'urgent, et à repousser l'important. Chaque jour, essaie de réserver du temps à l'important avant que l'urgent ne prenne toute la place.</p>
+            <p><strong>Se fixer peu de priorités.</strong> Une liste de vingt tâches décourage. Choisir trois priorités par jour est plus réaliste : si tu les accomplis, ta journée est réussie.</p>
+            <p><strong>Travailler par blocs.</strong> Il est plus efficace de se concentrer 45 minutes sur une seule chose, puis de faire une courte pause, que de changer sans cesse d'activité. Pendant ces blocs, mets le téléphone hors de portée.</p>
+            <p><strong>Repérer les voleurs de temps.</strong> Les notifications, les discussions interminables, la consultation automatique des réseaux sociaux grignotent des heures sans qu'on s'en aperçoive. Il ne s'agit pas de les supprimer, mais de décider quand on y consacre du temps.</p>
+            <p><strong>Protéger le repos.</strong> Le sommeil, les repas et les moments de détente ne sont pas du temps perdu : ils permettent de se concentrer, de retenir ce qu'on apprend et de garder une bonne santé. Un jeune épuisé travaille moins bien qu'un jeune reposé.</p>
+            <p><strong>Apprendre à dire non.</strong> Accepter toutes les demandes empêche de tenir ses propres engagements. Dire non avec respect à ce qui n'est pas essentiel est une compétence qui s'apprend.</p>
+          </div>
+          
+                    <div class="stage" style="--c:#0B4EA2">
+            <h4><span>3</span>Une réflexion</h4>
+            <p>Prends quelques minutes, seul(e) et au calme, pour répondre honnêtement à ces questions :</p>
+            <ul class="list-check">
+              <li>Où part vraiment mon temps chaque jour ? Si je devais le noter heure par heure, serais-je surpris(e) ?</li>
+              <li>Quelles activités me fatiguent sans m'apporter grand-chose ?</li>
+              <li>Qu'est-ce que je repousse depuis longtemps alors que c'est important pour moi ?</li>
+              <li>Est-ce que je prends assez de temps pour dormir, me reposer et voir les personnes qui comptent ?</li>
+              <li>Si je pouvais ajouter une heure utile à ma journée, qu'en ferais-je ?</li>
+            </ul>
+            <p>Il n'y a pas de bonne ou de mauvaise réponse. L'objectif est de prendre conscience de tes habitudes, car on ne peut changer que ce que l'on voit clairement.</p>
+          </div>
+
+          <div class="stage" style="--c:#1AA7E0">
+            <h4><span>4</span>Une action : le défi de la semaine</h4>
+            <p>Pendant <strong>7 jours</strong>, essaie cette méthode toute simple :</p>
+            <ul class="list-check">
+              <li><strong>Chaque matin :</strong> écris sur un papier tes 3 priorités de la journée, dont au moins une qui est importante pour ton avenir.</li>
+              <li><strong>Pendant la journée :</strong> réserve un bloc de 45 minutes sans téléphone pour avancer sur ta priorité principale.</li>
+              <li><strong>Chaque soir :</strong> coche ce que tu as accompli et note en une phrase ce qui t'a fait perdre du temps.</li>
+              <li><strong>À la fin de la semaine :</strong> regarde ce qui a marché et garde ce qui t'a aidé(e).</li>
+            </ul>
+          </div>
+
+          <div class="retenir">
+            <h4>✅ À retenir</h4>
+            <ul class="list-check" style="margin-bottom:0">
+              <li>Le but n'est pas de tout faire, mais de bien choisir ce qui compte.</li>
+              <li>Trois priorités par jour valent mieux qu'une liste interminable.</li>
+              <li>Le repos fait partie de la réussite, pas de la paresse.</li>
+            </ul>
+          </div>
+
+          <div class="declic-end">
+            <a class="btn btn-primary" href="contact.html?sujet=declic">Partager ma réflexion</a>
+            <a class="btn btn-outline" href="#declic-2026-10-09">Déclic précédent ↓</a>
+          </div>
+        </article>
+                <!-- ============ DÉCLIC DU 9 OCTOBRE 2026 — ORIENTATION ============ -->
+        <article class="card accent declic reveal" id="declic-2026-10-09" style="--c:#0B4EA2">
+          <div class="declic-meta">
+            <time class="date-badge" datetime="2026-10-09">📅 Vendredi 9 octobre 2026</time>
+            <span class="badge">🧭 Orientation</span>
+            <span class="badge">📝 Publication · ⏱ 5 min de lecture</span>
+          </div>
+          <h3>Choisir sa filière : par où commencer ?</h3>
+          <p class="intro">Quelle filière choisir ? Quel métier faire ? Entre les conseils de la famille, l'avis des amis et ses propres doutes, faire un choix peut donner le vertige. Voici une démarche simple pour avancer plus sereinement.</p>
+
+          <div class="stage" style="--c:#E6007E">
+            <h4><span>1</span>Un sujet</h4>
+            <p>L'orientation est l'une des décisions les plus importantes de la jeunesse. Elle influence les études que l'on suivra, les compétences que l'on développera et, en grande partie, le métier que l'on exercera plus tard.</p>
+            <p>Pourtant, beaucoup de jeunes se décident dans la précipitation, sous la pression de la famille, par peur de décevoir, ou en suivant simplement ce que font leurs camarades. D'autres n'osent pas choisir du tout, de peur de se tromper.</p>
+            <p>Le résultat est souvent le même : des années passées dans une filière qui ne correspond ni à ses goûts, ni à ses forces, ni à la réalité du métier visé.</p>
+          </div>
+
+          <div class="stage" style="--c:#6A2C91">
+            <h4><span>2</span>Une compréhension</h4>
+            <p>Un choix d'orientation réfléchi repose sur <strong>trois piliers</strong>. Quand les trois se rejoignent, on a de bonnes chances de s'épanouir.</p>
+            <p><strong>Ce que j'aime.</strong> Mes centres d'intérêt, ce qui me passionne, ce qui me donne envie d'apprendre. Un métier se pratique pendant des années : mieux vaut qu'il t'intéresse.</p>
+            <p><strong>Ce que je sais faire.</strong> Mes qualités, mes talents, mes matières fortes, mais aussi ce que je suis prêt(e) à apprendre. On a parfois des talents que l'on ne voit pas : demande aux personnes qui te connaissent bien ce qu'elles pensent de tes points forts.</p>
+            <p><strong>La réalité du métier.</strong> Ce que le métier demande vraiment au quotidien, les études nécessaires, les débouchés, les conditions de travail. Un métier qui fait rêver de l'extérieur peut être très différent de l'intérieur.</p>
+            <p>Voici une démarche en quatre temps pour avancer :</p>
+            <ul class="list-check">
+              <li><strong>Explorer :</strong> faire la liste de tous les domaines qui t'attirent, même ceux qui te semblent « irréalistes ».</li>
+              <li><strong>Se renseigner :</strong> chercher les formations, les métiers et les débouchés liés à ces domaines.</li>
+              <li><strong>Tester :</strong> rencontrer des professionnels, faire un stage ou du bénévolat, suivre un cours en ligne, pour voir si cela te plaît vraiment.</li>
+              <li><strong>Décider et ajuster :</strong> choisir une piste, tout en gardant la possibilité de te réorienter si tu découvres que ce n'est pas pour toi.</li>
+            </ul>
+            <p>Quelques pièges sont à éviter : choisir uniquement pour le prestige ou pour le salaire, copier le choix d'un ami, croire qu'un seul choix décide de toute une vie, ou attendre la dernière minute. Un choix d'orientation n'est pas toujours définitif : il existe souvent des possibilités de réorientation, mais mieux vaut s'y préparer en amont.</p>
+          </div>
+                    <div class="stage" style="--c:#0B4EA2">
+            <h4><span>3</span>Une réflexion</h4>
+            <p>Réponds à ces questions par écrit, c'est plus efficace que dans la tête :</p>
+            <ul class="list-check">
+              <li>Quelles activités me font oublier le temps qui passe ?</li>
+              <li>Dans quelles matières ou situations suis-je à l'aise sans trop d'effort ?</li>
+              <li>Est-ce que je choisis cette voie pour moi, ou pour faire plaisir à quelqu'un ?</li>
+              <li>Est-ce que je connais vraiment une journée type dans ce métier ?</li>
+              <li>Si je n'avais pas peur de l'avis des autres, que choisirais-je ?</li>
+            </ul>
+            <p>Si ta famille a des attentes différentes des tiennes, ce n'est pas un drame : c'est une occasion d'ouvrir une discussion honnête, avec des arguments et des informations, plutôt que de subir ou de se taire.</p>
+          </div>
+
+          <div class="stage" style="--c:#1AA7E0">
+            <h4><span>4</span>Une action : le défi de la semaine</h4>
+            <ul class="list-check">
+              <li><strong>Choisis un métier</strong> qui t'attire ou t'intrigue.</li>
+              <li><strong>Trouve une personne</strong> qui l'exerce (un voisin, un parent d'ami, un ancien de ton école, un contact de la communauté JI) et demande-lui un court échange.</li>
+              <li><strong>Prépare trois questions :</strong> « Comment se passe une journée type ? », « Quelles études ou quelles compétences sont nécessaires ? », « Qu'est-ce qui est le plus difficile dans ce métier ? »</li>
+              <li><strong>Note les réponses</strong> et demande-toi : est-ce que cela me donne envie d'aller plus loin ?</li>
+            </ul>
+            <p>Tu n'as trouvé personne ? Écris-nous : la communauté JI peut t'aider à entrer en contact avec des professionnels.</p>
+          </div>
+
+          <div class="retenir">
+            <h4>✅ À retenir</h4>
+            <ul class="list-check" style="margin-bottom:0">
+              <li>Un bon choix réunit ce que j'aime, ce que je sais faire et la réalité du métier.</li>
+              <li>On ne choisit pas bien sans s'être renseigné : explore, interroge, teste.</li>
+              <li>Se tromper n'est pas une fin : on peut ajuster son parcours.</li>
+            </ul>
+          </div>
+
+          <div class="declic-end">
+            <a class="btn btn-primary" href="contact.html?sujet=declic">Partager ma réflexion</a>
+            <a class="btn btn-outline" href="#declic-2026-10-02">Déclic précédent ↓</a>
+          </div>
+        </article>
+                <!-- ============ DÉCLIC DU 2 OCTOBRE 2026 — CITOYENNETÉ ============ -->
+        <article class="card accent declic reveal" id="declic-2026-10-02" style="--c:#E6007E">
+          <div class="declic-meta">
+            <time class="date-badge" datetime="2026-10-02">📅 Vendredi 2 octobre 2026</time>
+            <span class="badge">🤝 Citoyenneté</span>
+            <span class="badge">📝 Publication · ⏱ 5 min de lecture</span>
+          </div>
+          <h3>Être citoyen, ça commence près de chez soi</h3>
+          <p class="intro">Quand on parle de citoyenneté, on pense souvent à de grands discours ou à de grandes décisions. Pourtant, la citoyenneté se vit d'abord dans les petits gestes de tous les jours, là où nous habitons, étudions et travaillons.</p>
+
+          <div class="stage" style="--c:#E6007E">
+            <h4><span>1</span>Un sujet</h4>
+            <p>Un sachet jeté par terre, une file d'attente où quelqu'un passe devant les autres, une rumeur transmise sans vérification, un voisin âgé que personne n'aide à porter ses courses : chacune de ces situations parle de citoyenneté, même si on n'y pense pas.</p>
+            <p>Être citoyen, c'est appartenir à une communauté (son quartier, sa ville, son pays) et savoir que l'on a, vis-à-vis d'elle, à la fois des droits et des responsabilités. Pourtant, beaucoup de jeunes pensent que ce n'est pas leur sujet : « Je suis trop jeune », « Ça ne changera rien », « C'est aux autres de faire ».</p>
+            <p>Et si la citoyenneté était plus simple, et plus proche de nous, qu'on ne le croit ?</p>
+          </div>
+
+          <div class="stage" style="--c:#6A2C91">
+            <h4><span>2</span>Une compréhension</h4>
+            <p>La citoyenneté repose sur trois idées qui vont ensemble :</p>
+            <ul class="list-check">
+              <li><strong>Les droits :</strong> être respecté, pouvoir s'exprimer, apprendre, vivre en sécurité.</li>
+              <li><strong>Les responsabilités :</strong> respecter les autres, les règles communes et les espaces que nous partageons. Mes droits s'arrêtent là où commencent ceux des autres.</li>
+              <li><strong>La participation :</strong> ne pas se contenter de regarder, mais apporter sa part pour que la communauté aille mieux.</li>
+            </ul>
+            <p><strong>Citoyenneté ne veut pas dire politique partisane.</strong> Être citoyen n'oblige pas à soutenir un parti ou une personnalité. Il s'agit de comportements et d'engagements au service de tous : respecter, aider, s'informer, participer. C'est pourquoi Jeunes Inspirés, apolitique et ouvert à tous, en fait l'un de ses six axes.</p>
+            <p>Voici des exemples de gestes citoyens, à la portée de chacun :</p>
+            <ul class="list-check">
+              <li>garder propre son quartier, son école, son lieu de travail ;</li>
+              <li>respecter les règles de la vie en groupe (files d'attente, horaires, transports) ;</li>
+              <li>vérifier une information avant de la partager ;</li>
+              <li>aider une personne âgée, un voisin, un camarade en difficulté ;</li>
+              <li>écouter des opinions différentes sans se moquer ni insulter ;</li>
+              <li>participer à une action collective (nettoyage, collecte, campagne de sensibilisation).</li>
+            </ul>
+            <p>Pris seul, chaque geste paraît minuscule. Ensemble, ils font la différence entre un quartier où l'on se sent bien et un quartier où chacun se renferme. La citoyenneté, c'est l'effet cumulé de petites actions répétées par beaucoup de personnes.</p>
+          </div>
+                    <div class="stage" style="--c:#0B4EA2">
+            <h4><span>3</span>Une réflexion</h4>
+            <ul class="list-check">
+              <li>Quel geste citoyen ai-je déjà fait sans y penser ? Quel effet a-t-il eu ?</li>
+              <li>Qu'est-ce qui me dérange dans mon quartier, mon école ou ma ville, et que je pourrais contribuer à améliorer ?</li>
+              <li>Quand je me dis « ça ne changera rien », est-ce vrai, ou est-ce une excuse confortable ?</li>
+              <li>Comment est-ce que je réagis face à une personne qui pense différemment de moi ?</li>
+              <li>Quelle image de la citoyenneté aimerais-je transmettre à ceux qui me suivent ?</li>
+            </ul>
+            <p>Faire preuve de citoyenneté ne demande pas d'être parfait : il s'agit de prendre conscience, puis de progresser pas à pas.</p>
+          </div>
+
+          <div class="stage" style="--c:#1AA7E0">
+            <h4><span>4</span>Une action : le défi de la semaine</h4>
+            <ul class="list-check">
+              <li><strong>Repère un besoin</strong> à moins de dix minutes de chez toi : un endroit sale, une personne qui a besoin d'aide, une habitude de groupe à améliorer.</li>
+              <li><strong>Choisis un geste simple</strong> et réalisable cette semaine, seul(e) ou avec deux ou trois amis.</li>
+              <li><strong>Passe à l'action</strong> et, si possible, prends une photo ou note ce que tu as fait.</li>
+              <li><strong>Observe l'effet :</strong> comment ont réagi les personnes autour de toi ? Qu'est-ce que cela t'a apporté ?</li>
+            </ul>
+            <p>Tu peux nous raconter ton action en nous écrivant : les plus belles initiatives pourront être partagées avec la communauté.</p>
+          </div>
+
+          <div class="retenir">
+            <h4>✅ À retenir</h4>
+            <ul class="list-check" style="margin-bottom:0">
+              <li>La citoyenneté se vit d'abord dans les gestes de tous les jours.</li>
+              <li>Droits, responsabilités et participation vont toujours ensemble.</li>
+              <li>Être citoyen n'est pas une affaire de politique, mais d'engagement envers les autres.</li>
+            </ul>
+          </div>
+
+          <div class="declic-end">
+            <a class="btn btn-primary" href="contact.html?sujet=declic">Raconter mon action</a>
+            <a class="btn btn-outline" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Retour en haut ↑</a>
+          </div>
+        </article>
+                
+                </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta reveal">
+          <h2>Un sujet qui te tient à cœur ?</h2>
+          <p>Propose un thème que tu aimerais voir traité dans un prochain JI Déclic.</p>
+          <div class="btn-row">
+            <a class="btn btn-light" href="contact.html?sujet=declic">Proposer un sujet</a>
+            <a class="btn btn-ghost" href="communaute.html">Voir la communauté</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/layout.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+    
